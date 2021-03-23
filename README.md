@@ -74,7 +74,8 @@ Another challenge was that when I clicked the stop button in the middle of a clu
     * How is it possible that we are able to use the sound library and the setInterval/clearInterval methods without having to explicitly import any javascript libraries at the top of script.js?
     * Do typical object-oriented methodologies such as inheritance, polymorphism, and encapsulation commonly seen in Java/C++ also apply to javascript?
     * Why is it that we can write complicated javascript logic and functions that compile in-browser, but when you need a dedicated backend using python or another backend language, the browser doesn't compile that code?
-
+    * Although I understand that javascript is a weakly-typed language, is there anyway to cast a variable to another type? Or is type only handled under the hood and not explicitly available to be used in the code?
+    * Why is it so complicated to center a block of code and why are there different to do so with text blocks versus divs? Do most developers at Top Tier tech companies such as Workday use work-arounds like Flexbox or what is the standard industry protocol?
 
 
 4. If you had a few more hours to work on this project, what would you spend them doing (for example: refactoring certain functions, adding additional features, etc). Be specific. (recommended 100 - 300 words) 
