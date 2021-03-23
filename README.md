@@ -34,7 +34,8 @@ The following **optional** features are implemented:
 
 The following **additional** features are implemented:
 
-- [x] Time left for each turn and lives are rendered to screen every decisecond
+- [x] Time left for each turn is rendered to screen every decisecond
+- [x] Current amount of lives are on updated on screen 
 
 ## Video Walkthrough
 
