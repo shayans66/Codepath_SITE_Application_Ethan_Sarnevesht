@@ -40,7 +40,21 @@ The following **additional** features are implemented:
 ## Video Walkthrough
 
 Here's a walkthrough of implemented user stories:
-[demo](https://i.imgur.com/cOR4OHo.mp4)
+
+1. Winning a game (with lives/timer functionality)
+    * ![demogif](https://i.imgur.com/Wk3UN3L.gif)
+2. Losing lives to lose game
+    * ![demogif](https://i.imgur.com/V99CMpu.gif)
+3. Running out of time to lose game in a turn
+    * ![demogif](https://i.imgur.com/vJRFNGf.gif)
+4. Stopping in middle of a game, stopping timer and resetting lives
+    * ![demogif](https://i.imgur.com/lcMU4X9.gif)
+
+
+
+
+
+[Full length demo with sound](https://i.imgur.com/cOR4OHo.mp4)
 
 
 ## Reflection Questions
