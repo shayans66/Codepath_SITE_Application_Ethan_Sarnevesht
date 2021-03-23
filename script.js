@@ -177,6 +177,7 @@ function myTimer(){
         // end timer here, will make new one later
         // todo: end timer
         clearInterval(myTimerVar)
+        nextClueWaitTime = 1000
     }
     console.log("current time:" + timer + " inseconds: " + (timer/1000))
 
@@ -200,8 +201,8 @@ function playClueSequence(){
   clueHoldTime -= (clueHoldTime) / pattern.length * 3;
 
 
-  if(clueHoldTime <= 100)
-    clueHoldTime = 100;
+  if(clueHoldTime <= 200)
+    clueHoldTime = 200;
   
   let totalDelay = 0;
   let delay = nextClueWaitTime; //set delay to initial wait time
@@ -209,6 +210,11 @@ function playClueSequence(){
     console.log("play single clue: " + pattern[i] + " in " + delay + "ms")
     setTimeout(playSingleClue,delay,pattern[i]) // set a timeout to play that clue
 
+    
+    if( progress === 0 ){
+      totalDelay += delay + clueHoldTime + cluePauseTime
+      break
+    }
     if( i === progress)
         totalDelay += delay + clueHoldTime
 
