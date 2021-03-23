@@ -6,7 +6,7 @@ Submitted by: Ethan Shayan Sarnevesht
 
 Time spent: 20 hours spent in total
 
-Link to project: (https://cheerful-humane-poison.glitch.me/)
+Link to project: https://cheerful-humane-poison.glitch.me/
 
 ## Required Functionality
 
